@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 60%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+li, button, label, input, p {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 4.6rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+h4, h5 {
+    font-size: 2.5rem;
+}
+
+a {
+    color: white;
+}
+
+/* Navbar and hero section  */
+
+.main-header {
+    background: rgb(2, 2, 49);
+    color: white;
+}
+
+nav {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 2rem;
+    align-items: center;
+    min-height: 10vh;
+}
+
+nav ul {
+    display: flex;
+    flex: 1  1 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+}
+
+#logo {
+    flex: 1 1 40rem;
+}
+
+.hero {
+    min-height: 90vh;
+    background: linear-gradient(pink, blue), url("../img/box-friends.jpeg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
