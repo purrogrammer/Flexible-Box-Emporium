@@ -10,11 +10,11 @@ html {
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
 }
 
 li, button, label, input, p {
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
 
 h2 {
@@ -64,7 +64,20 @@ nav ul {
 
 .hero {
     min-height: 90vh;
-    background: linear-gradient(pink, blue), url("../img/box-friends.jpeg"); 
+    background: url("img/boxes1.jpg"); 
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15%;
+}
+
+.hero button {
+    margin: 10px;
+    padding: 10px;
+    color: whitesmoke;
+    background: darkgreen;
+    border: none;
+    border-radius: 10%;
 }
